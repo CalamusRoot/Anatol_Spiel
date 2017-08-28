@@ -1,6 +1,17 @@
-class Player():
+import Character
+
+class Player(Character):
+    
     def __init__(self, name):
         self.name = name
+        self.hp = 100
+        self.xp = 0
+        self.dmg = 1
+        self.defense = 1
+        
+        super(Player, self).__init__(name, self.hp, self.xp, self.dmg, self.defense)
+        
+        
         self.location_x = 0
         self.dmg = 10
         self.location_y = 0
