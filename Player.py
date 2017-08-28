@@ -33,4 +33,3 @@ class Player():
 
     def bewege_westen(self):
         self.bewege(dx=-1, dy=0)
-    
