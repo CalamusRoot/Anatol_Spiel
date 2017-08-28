@@ -1,22 +1,21 @@
-import Character
+import Game_Character
 
 
-class Player(Character):
-    def __init__(self, name):
-        self.name = name
+class Player(Game_Character):
+    def __init__(self):
+        self.name = "b"
         self.hp = 100
-        self.xp = 0
-        self.dmg = 1
-        self.defense = 1
-        self.location_x = 0
-        self.location_y = 0
+        # self.xp = 0
+        # self.dmg = 1
+        # self.defense = 1
+        # self.location_x = 0
+        # self.location_y = 0
         
         # super(Player, self).__init__(name, self.hp, self.xp, self.dmg, self.defense)
         
-        
-hans = Player("hans")
+hans = Player()
 
-print(hans.location_y)
+print(hans.name)
  
         
 
