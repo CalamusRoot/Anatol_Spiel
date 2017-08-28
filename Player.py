@@ -5,13 +5,13 @@ class Player(Game_Character):
     def __init__(self):
         self.name = "b"
         self.hp = 100
+       
         # self.xp = 0
         # self.dmg = 1
         # self.defense = 1
         # self.location_x = 0
         # self.location_y = 0
         
-        # super(Player, self).__init__(name, self.hp, self.xp, self.dmg, self.defense)
         
 hans = Player()
 
