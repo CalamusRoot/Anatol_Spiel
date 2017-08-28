@@ -4,7 +4,7 @@ class Player():
         self.location_x = 0
         self.location_y = 0
         self.iventar = ["gold:15","fäuste"]
-        self.hp = 100
+        self.hp = 150
         self.gewonnen = False
         
     def am_leben(self):
