@@ -2,6 +2,7 @@ class Player():
     def __init__(self, name):
         self.name = name
         self.location_x = 0
+        self.dmg = 10
         self.location_y = 0
         self.iventar = ["gold:15","fäuste"]
         self.hp = 150
